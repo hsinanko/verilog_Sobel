@@ -1,10 +1,9 @@
 module SEDE (input clk,
-			input rst,
-			input [7:0] pix_data,
-			output reg  valid,
-			output reg[7:0] edge_out,
-			output reg busy
-);
+	     input rst,
+	     input [7:0] pix_data,
+	     output reg  valid, 
+	     output reg[7:0] edge_out,
+	     output reg busy );
 	parameter x0 = 1, x1 = 0, x2 = -1;
 	parameter x3 = 2, x4 = 0, x5 = -2;
 	parameter x6 = 1, x7 = 0, x8 = -1;
